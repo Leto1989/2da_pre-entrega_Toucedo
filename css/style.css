@@ -33,3 +33,17 @@ h3{font-size: 20;color: #04202c ;}
     bottom: 440px;right: 60px;
 }
 .imgFact{position: relative;left: 40px;bottom: 40px;}
+
+/*MOBILE*/
+@media (max-width:768px){
+    .bgColor1{height: 250px;}
+
+    h1{font-size: 30px;}
+    .encabezado1{width: 200px;position: relative;bottom: 100px;
+                 margin: -44px;}
+    .portInd{height: 300px;}
+    .imgTunel{position: static;height: auto;}
+    .imgFact{position: static;height: auto;}
+    .p1{font-size: 20px;}
+    .p2{font-size: 20px;}
+}
