@@ -9,13 +9,14 @@ footer{background-color: #c9d1c8; height: 100px;}
 .heightCol{height:300px;}
 .divHeight{height: 700px;}
 /*TEXTOS*/
-h1{font-size: 70px;color: #c9d1c8;font-family:"Battambang", sans-serif;}
+h1{width: 300px;font-size: 70px;color: #c9d1c8;font-family:"Battambang", sans-serif;}
 h2{font-family: "CormorantUnicase", sans-serif;}
 h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
 .p1{font-size: 25px;font-family: "Balthazar", sans-serif;}
 .encabezado1{position: absolute;bottom:100px;left: 100px;
     width: 400px; margin:none;}
 .tituFilm{position: absolute;left:600px;top:130px;color: #04202c;}
+.titCont{position: absolute;left: 900px;top:300px;}
 .p2{background-color: #04202c;color: #c9d1c8;
     font-family: "CormorantUnicase";margin: 60px;padding: 60px;}
 .p3{font-size: 20px;margin: 50px;padding:20px ;} 
@@ -24,8 +25,8 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
 .cont{
     display: flex; flex-direction: column;align-items: center;
     font-size: 15px;font-family: Balthazar;}
-.textFlex{display: flex;flex-direction: column;justify-content: end;}
 .mensaje{color: #c9d1c8;}
+.pFinal{}
 /*FUENTES*/
 @font-face {
     font-family: "Battambang";
@@ -46,7 +47,7 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
 .imgFact{position: relative;left: 40px;bottom: 40px;}
 .imgHeight{height: 427px;}
 .imgTambor{height:450px;position: relative;bottom: 400px;right: 380px;}
-
+.imgLechu{position: relative;bottom:360px;left: 80px;}
 /*MOBILE*/
 @media (max-width:768px){
     body{display: flex; flex-direction: column;justify-content: center;}
