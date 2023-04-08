@@ -7,6 +7,7 @@ li{font-size: 25px;}
 .row{--bs-gutter-x:0;}
 footer{background-color: #c9d1c8; height: 100px;}
 .heightCol{height:300px;}
+.divHeight{height: 700px;}
 /*TEXTOS*/
 h1{font-size: 70px;color: #c9d1c8;font-family:"Battambang", sans-serif;}
 h2{font-family: "CormorantUnicase", sans-serif;}
@@ -46,14 +47,33 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
 
 /*MOBILE*/
 @media (max-width:768px){
+    body{display: flex; flex-direction: column;justify-content: center;}
+    footer{display: flex;flex-direction: column;justify-content: center;}
     .bgColor1{height: 250px;}
+    .magooMob{ display:Flex;flex-direction: column-reverse;}
+    .flexMob{display: flex;flex-direction: column;align-items: center;} 
 
+    /*TEXTOS*/
     h1{font-size: 30px;}
     .encabezado1{width: 200px;position: relative;bottom: 100px;
-                 margin: -44px;}
-    .portInd{height: 300px;}
+                 margin: -44px;}             
+    .p1{font-size: 20px;padding: 10px;}
+    .p2{font-size: 20px;}
+    .p3{font-size: 15px;margin:20px;}
+    .tituFilm{position: static; color: #5b7065;}
+
+                    
+/*IMÁGENES*/                 
+    .portMob{height: 300px;}
+    .imgTambor{height: 200px;position: relative;bottom:494px;left:55px;}
     .imgTunel{position: static;height: auto;}
     .imgFact{position: static;height: auto;}
-    .p1{font-size: 20px;}
-    .p2{font-size: 20px;}
+    .magooMob{display:Flex;flex-direction: column-reverse;}
+    .divHeight{height: 500px;}
+    .heightCol{height: 0px;}
+    .imgMob{height: 280px;}
+
+
+    
+
 }
