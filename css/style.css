@@ -18,12 +18,14 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
 .tituFilm{position: absolute;left:600px;top:130px;color: #04202c;}
 .p2{background-color: #04202c;color: #c9d1c8;
     font-family: "CormorantUnicase";margin: 60px;padding: 60px;}
-.p3{font-size: 20px;margin: 50px;padding:20px ;}    
+.p3{font-size: 20px;margin: 50px;padding:20px ;} 
+.p4{margin:100px;padding: 50px;font-size: 25px;}   
 .rrss{display: flex; justify-content:center;}
 .cont{
     display: flex; flex-direction: column;align-items: center;
-    font-size: 15px;font-family: Balthazar;
-}
+    font-size: 15px;font-family: Balthazar;}
+.textFlex{display: flex;flex-direction: column;justify-content: end;}
+.mensaje{color: #c9d1c8;}
 /*FUENTES*/
 @font-face {
     font-family: "Battambang";
