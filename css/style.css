@@ -9,19 +9,24 @@ footer{background-color: #c9d1c8; height: 100px;}
 .heightCol{height:300px;}
 .divHeight{height: 700px;}
 /*TEXTOS*/
+.textFlex{display: flex;flex-direction: column;align-items: center;}
 h1{width: 300px;font-size: 70px;color: #c9d1c8;font-family:"Battambang", sans-serif;}
-h2{font-family: "CormorantUnicase", sans-serif;}
-h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
-.p1{font-size: 25px;font-family: "Balthazar", sans-serif;}
+h2{margin:30px;font-family: "CormorantUnicase", sans-serif;}
+h3{margin: 40px;font-size: 35px;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
+h4{font-size: 25px;}
 .encabezado1{position: absolute;bottom:100px;left: 100px;
     width: 400px; margin:none;}
 .tituFilm{position: absolute;left:600px;top:130px;color: #04202c;}
 .titCont{position: absolute;left: 900px;top:300px;}
 .titNos{position: absolute;left: 900px;top:400px;color: #04202c;}
+.titReal{position: absolute;top: 400px;left:100px;}
+.p1{font-size: 25px;font-family: "Balthazar", sans-serif;}
 .p2{background-color: #04202c;color: #c9d1c8;
     font-family: "CormorantUnicase";margin: 60px;padding: 60px;}
-.p3{font-size: 20px;margin: 50px;padding:20px ;} 
-.p4{margin:100px;padding: 50px;font-size: 25px;}   
+.p3{font-size: 20px;margin: 50px;padding:20px;} 
+.p4{margin:100px;padding: 50px;font-size: 20px;}
+.pFilm{font-size: 20px;margin: 50px;padding:20px;color: #c9d1c8;}   
+.colReal{color: #c9d1c8;}
 .rrss{display: flex; justify-content:center;}
 .cont{display: flex; flex-direction: column;align-items: center;
     font-size: 15px;font-family: Balthazar;}
@@ -38,7 +43,8 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
 .imgHeight{height: 427px;}
 .imgTambor{height:450px;position: relative;bottom: 400px;right: 380px;}
 .imgLechu{position: relative;bottom:360px;left: 80px;}
-.imgMargin{margin: 30px;}
+.imgMecanico{position: relative;right: 80px;bottom: 430px;}
+
 /*FUENTES*/
 @font-face {
     font-family: "Battambang";
