@@ -17,16 +17,28 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
     width: 400px; margin:none;}
 .tituFilm{position: absolute;left:600px;top:130px;color: #04202c;}
 .titCont{position: absolute;left: 900px;top:300px;}
+.titNos{position: absolute;left: 900px;top:400px;color: #04202c;}
 .p2{background-color: #04202c;color: #c9d1c8;
     font-family: "CormorantUnicase";margin: 60px;padding: 60px;}
 .p3{font-size: 20px;margin: 50px;padding:20px ;} 
 .p4{margin:100px;padding: 50px;font-size: 25px;}   
 .rrss{display: flex; justify-content:center;}
-.cont{
-    display: flex; flex-direction: column;align-items: center;
+.cont{display: flex; flex-direction: column;align-items: center;
     font-size: 15px;font-family: Balthazar;}
 .mensaje{color: #c9d1c8;}
 .pFinal{color:#c9d1c8;margin: 100px 300px;font-family:"CormorantUnicase";}
+
+/*IMÁGENES*/
+.img100{width: 100%;}
+.port{width: 100%;height: 600px;}
+.imgTunel{width:100%;height: 500px;position: relative;
+    bottom: 440px;right: 60px;}
+.imgFact{position: relative;left: 40px;bottom: 40px;}
+.img8m{position: relative;bottom: 360px;left: 80px;}
+.imgHeight{height: 427px;}
+.imgTambor{height:450px;position: relative;bottom: 400px;right: 380px;}
+.imgLechu{position: relative;bottom:360px;left: 80px;}
+.imgMargin{margin: 30px;}
 /*FUENTES*/
 @font-face {
     font-family: "Battambang";
@@ -36,18 +48,6 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
     font-family: "CormorantUnicase";
     src: url("../fonts/CormorantUnicase-Medium.ttf");
 }
-
-/*IMÁGENES*/
-.img100{width: 100%;}
-.port{width: 100%;height: 600px;}
-.imgTunel{
-    width:100%;height: 500px;position: relative;
-    bottom: 440px;right: 60px;
-}
-.imgFact{position: relative;left: 40px;bottom: 40px;}
-.imgHeight{height: 427px;}
-.imgTambor{height:450px;position: relative;bottom: 400px;right: 380px;}
-.imgLechu{position: relative;bottom:360px;left: 80px;}
 /*MOBILE*/
 @media (max-width:768px){
     body{display: flex; flex-direction: column;justify-content: center;}
