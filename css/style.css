@@ -26,7 +26,7 @@ h3{font-size: 20;color: #04202c;font-family: "CormorantUnicase", sans-serif;}
     display: flex; flex-direction: column;align-items: center;
     font-size: 15px;font-family: Balthazar;}
 .mensaje{color: #c9d1c8;}
-.pFinal{}
+.pFinal{color:#c9d1c8;margin: 100px 300px;font-family:"CormorantUnicase";}
 /*FUENTES*/
 @font-face {
     font-family: "Battambang";
